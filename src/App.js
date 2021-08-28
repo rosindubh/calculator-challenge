@@ -15,8 +15,8 @@ function App() {
 
     for (let i = 1; i < 10; i++) {
       digits.push(
-        <button 
-          onClick={() => updateCalc(i.toString())} 
+        <button
+          onClick={() => updateCalc(i.toString())}
           key={i}>
           {i}
         </button>
@@ -30,7 +30,7 @@ function App() {
     <div className="App">
       <div className="calculator">
         <div className="display">
-          { result ? <span>(0)</span> : ''} 
+          { result ? <span>(0)</span> : ''}
           { calc || "0"}
         </div>
 
