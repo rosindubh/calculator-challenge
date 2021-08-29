@@ -21,7 +21,7 @@ function App() {
       setResult(eval(calc + value).toString()); //NOTE: consider using window.function here - eval can be harmful
     }
   }
-
+  //use function to create digits 1 to 9
   const createDigits = () => {
     const digits = [];
 
