@@ -18,7 +18,7 @@ function App() {
     setCalc(calc + value);
 
     if (!ops.includes(value)) {
-      setResult(eval(calc + value).toString());
+      setResult(eval(calc + value).toString()); //NOTE: consider using window.function here - eval can be harmful
     }
   }
 
